@@ -1,7 +1,8 @@
 import './App.css';
-import Image from './bingebuddy.png';
+import Image1 from './bingebuddyuser.png';
 import MovieCard from './MovieCard';
 import { useEffect, useState } from 'react';
+import WatchlistPage from './WatchlistPage';
 function Profile() {
   return (
     <div className="Profile">
@@ -9,7 +10,7 @@ function Profile() {
 
       <div className="profile-info">
         <div className="profile-pic" style={{color:'#fff'}}> 
-          <img src={Image} alt="profile pic" style={{width:'200px', height:'200px'}}/>
+          <img src={Image1} alt="profile pic" style={{width:'200px', height:'200px'}}/>
           <h2>User</h2>
         </div>
         <div className="profile-bio"style={{color:'#fff'}}>
@@ -22,8 +23,8 @@ function Profile() {
         </div>
       </div>
     </div>
-
   </div>
+  
   );
 }
 

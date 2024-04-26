@@ -4,6 +4,8 @@ import Login from './Login';
 import Profile from './Profile';
 import MovieList from './MovieList';
 import Wishlist from './WishList'; // Import the Wishlist component
+import Image from './bingebuddy.png';
+import Image1 from './bingebuddyuser.png';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -53,7 +55,7 @@ const App = () => {
       {isLoggedIn && (
         <header className="header">
           <div className="logo">
-          <img src='./bingebuddy.png' style={{width:'100px', height:'80px'}}/>
+          <img src={Image} style={{width:'150px', height:'150px'}}/>
           </div>
           <div className="navigation">
             <button onClick={() => setCurrentPage("Home")}>Home</button>
