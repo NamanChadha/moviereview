@@ -140,3 +140,40 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
 }
+
+.profile-info{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.profile-pic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.profile-pic img{
+  border-radius: 50%;
+}
+.profile-bio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile-bio h4{
+  font-size: 2rem;
+}
+.movies-watched{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+#moviewatched{
+  color:#fff;
+   font-size: 2rem;
+   margin-left: 9rem;
+   margin-top: 3rem;
+}
