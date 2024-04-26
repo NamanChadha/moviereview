@@ -1,0 +1,45 @@
+.BABABUI{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login-container {
+    background-color: #232222;
+    color: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 1rem;
+
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .login-container button.login-button {
+    padding: 0.5rem 1rem;
+    background-color: #d35400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button.login-button:hover {
+    background-color: #e67e22;
+  }
+  
