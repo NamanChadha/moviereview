@@ -3,6 +3,7 @@ import './App.css';
 import MovieCard from './MovieCard';
 import Login from './Login';
 import WatchlistPage from './WatchlistPage';
+import Image from './bingebuddy.png';
 
 const ProtectedPage = ({ onLogout }) => {
   const API_URL = "https://api.themoviedb.org/3/movie/popular?api_key=7d776c13726428fd6907f0d7d376b6d9";
@@ -71,7 +72,7 @@ const ProtectedPage = ({ onLogout }) => {
     <div className="App">
       <header className="header">
       <div className="logo">
-        <img src="./src/bingebuddy.png" alt="Logo" />
+        <img src={Image} style={{width:'80px', height:'50px'}} alt="Logo" />
       </div>
       <div className="navigation">
         <button>Home</button>
