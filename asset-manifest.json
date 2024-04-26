@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moviereview/static/css/main.01762622.css",
+    "main.js": "/moviereview/static/js/main.ee4aad2e.js",
+    "static/media/bingebuddy.png": "/moviereview/static/media/bingebuddy.dee0cc7a8def69f6d2ac.png",
+    "static/media/bingebuddyuser.png": "/moviereview/static/media/bingebuddyuser.fb255d71f62e2d89cdd7.png",
+    "index.html": "/moviereview/index.html",
+    "main.01762622.css.map": "/moviereview/static/css/main.01762622.css.map",
+    "main.ee4aad2e.js.map": "/moviereview/static/js/main.ee4aad2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01762622.css",
+    "static/js/main.ee4aad2e.js"
+  ]
+}
